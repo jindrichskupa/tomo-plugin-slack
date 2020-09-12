@@ -1,6 +1,6 @@
-module Tomo::Plugin::Example
+module Tomo::Plugin::Slack
   class Tasks < Tomo::TaskLibrary
-    # Defines a example:hello task
+    # Defines a slack:hello task
     def hello
       remote.run "echo", "hello, world"
     end

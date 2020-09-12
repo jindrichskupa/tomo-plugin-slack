@@ -1,8 +1,8 @@
 require "test_helper"
 
-class Tomo::Plugin::Example::HelpersTest < Minitest::Test
+class Tomo::Plugin::Slack::HelpersTest < Minitest::Test
   def setup
-    @tester = Tomo::Testing::MockPluginTester.new("example")
+    @tester = Tomo::Testing::MockPluginTester.new("slack")
   end
 
   def test_shout
